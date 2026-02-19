@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: radial-gradient(circle at top, #0f2027, #000);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.container {
+  text-align: center;
+}
+
+.glow {
+  font-size: 3rem;
+  color: #00ffd5;
+  text-shadow: 0 0 25px #00ffd5;
+}
+
+.card {
+  margin-top: 20px;
+  background: rgba(255,255,255,0.08);
+  padding: 25px;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 30px rgba(0,255,213,0.25);
+}
+
+.name {
+  font-size: 1.8rem;
+  font-weight: 800;
+}
+
+.upi {
+  opacity: 0.7;
+  margin-bottom: 15px;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 12px;
+  border: none;
+  margin-bottom: 10px;
+  font-size: 1rem;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  border-radius: 12px;
+  border: none;
+  font-weight: 700;
+  cursor: pointer;
+  background: #00ffd5;
+}
+
+#qr {
+  width: 230px;
+  margin: 20px auto;
+  background: white;
+  padding: 10px;
+  border-radius: 15px;
+  display: none;
+}
+
+.apps {
+  display: none;
+  margin-top: 10px;
+  gap: 10px;
+}
+
+.app {
+  margin-top: 8px;
+}
+
+.phonepe { background: #5f259f; color: white; }
+.gpay { background: #1a73e8; color: white; }
+.fampay { background: #000; color: #00ffd5; }
+
+.note {
+  margin-top: 10px;
+  font-size: 0.8rem;
+  opacity: 0.6;
+}
+
+footer {
+  margin-top: 15px;
+  font-size: 0.7rem;
+  opacity: 0.4;
+}
