@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>UPI Pay</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1 class="glow">Scan & Pay</h1>
+
+  <div class="card">
+    <p class="name" id="name">SANDESH UBALE</p>
+    <p class="upi" id="upi">paytosandesh@ibl</p>
+
+    <input type="number" id="amount" placeholder="Enter Amount ₹" />
+
+    <button onclick="generatePayment()">Generate Payment</button>
+
+    <img id="qr" />
+
+    <div class="apps" id="apps">
+      <button class="app phonepe" onclick="openApp('phonepe')">PhonePe</button>
+      <button class="app gpay" onclick="openApp('gpay')">GPay</button>
+      <button class="app fampay" onclick="openApp('fampay')">FamPay</button>
+    </div>
+
+    <p class="note">Fast • Secure • Direct UPI</p>
+  </div>
+
+  <footer>Made with ❤️</footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
